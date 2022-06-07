@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+main {
+    background-color: skyblue;
+}
+.ear {
+    background-color: beige;
+    height: 10vh;
+    width: calc(100vw / 3 - 20%);
+    margin-left: 20%;
+}
+.head {
+    background-color: gainsboro;
+    height: 15vh;
+    width: calc(100vw / 3);
+}
+.neck {
+    background-color: darkgoldenrod;
+    height: 17vh;
+    width: calc(100vw / 3 - 15%);
+    margin-left: 15%;
+}
+
+.body { 
+    height: 16vh;
+    background-color: plum;
+    height: 23vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.tail  {
+    background-color: blue;
+    width: 15%;
+    height: 5vh;
+    clear: both;
+    float: right;
+    margin-top: -23vh
+}
+
+.foot {
+    height: 25vh;
+    display: inline-block;
+    width: calc(100vw / 6);
+
+}
+.foot--front {
+    background-color: tomato;
+    margin-left: 15%;
+}
+.foot--back {
+    background-color: palevioletred;
+    margin-right: 15%;
+    float: right;
+}
